@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/styles.css";
 import CurrencyExchange from "../src/service.js";
 
+async function calcExchange(usd, forex) {}
+
 $(document).ready(function () {
   $("#exchange").submit(function (event) {
     event.preventDefault();
