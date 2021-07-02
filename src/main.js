@@ -17,7 +17,7 @@ async function calcExchange(usd, forex) {
     } else if (typeof response === "string") {
       $(".results").html(`${response}`);
     } else {
-      $(".results").text(`$${usd} converts to ${rate} ${forex}`);
+      $(".results").text(`$${usd} converts to ${rate} ${forex}!`);
     }
   }
 }

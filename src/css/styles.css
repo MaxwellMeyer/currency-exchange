@@ -20,3 +20,33 @@ body {
   text-shadow: 1px 1px cyan;
   opacity: 0.5;
 }
+.inputDiv {
+  padding-top: 45px;
+}
+.forexDiv {
+  padding-top: 55px;
+}
+.btnDiv {
+  padding-top: 55px;
+}
+.results {
+  padding-top: 75px;
+}
+#sub {
+  border: none;
+  padding: 30px 30px;
+  border-radius: 50%;
+  background: linear-gradient(to right, rgb(0, 132, 255), rgb(132, 0, 255));
+  color: rgb(255, 0, 98);
+  font-weight: bolder;
+  text-shadow: 1px 1px rgb(251, 255, 0);
+}
+
+#sub:hover {
+  filter: invert(1);
+}
+
+#sub:active {
+  background: rgb(0, 0, 0);
+  color: yellowgreen;
+}
