@@ -21,7 +21,6 @@ async function calcExchange(usd, forex) {
     }
   }
 }
-
 $(document).ready(function () {
   $("#exchange").submit(function (event) {
     event.preventDefault();
