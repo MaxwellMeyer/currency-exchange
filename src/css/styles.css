@@ -26,8 +26,11 @@ body {
 .forexDiv {
   padding-top: 55px;
 }
+.choices {
+  font-size: 1rem;
+}
 .btnDiv {
-  padding-top: 55px;
+  padding-top: 75px;
 }
 .results {
   padding-top: 75px;
@@ -36,7 +39,12 @@ body {
   border: none;
   padding: 30px 30px;
   border-radius: 50%;
-  background: linear-gradient(to right, rgb(0, 132, 255), rgb(132, 0, 255));
+  background: linear-gradient(
+    to right,
+    rgb(85, 188, 248),
+    rgb(0, 132, 255),
+    rgb(132, 0, 255)
+  );
   color: rgb(255, 0, 98);
   font-weight: bolder;
   text-shadow: 1px 1px rgb(251, 255, 0);
