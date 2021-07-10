@@ -10,11 +10,11 @@ async function calcExchange(usd, forex) {
     const rate = (usd * response.conversion_rates[forex]).toFixed(1);
     if (isNaN(rate)) {
       $(".results").text(`Please select a valid currency to compare rates!`);
-    } else if (typeof response === "string") {
-      $(".results").html(`${response}`);
     } else {
       $(".results").text(`$${usd} USD converts to ${rate} ${forex}!`);
     }
+  } else if (typeof response === "string") {
+    $(".results").html(`${response}`);
   }
 }
 $(document).ready(function () {
