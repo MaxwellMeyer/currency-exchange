@@ -21,6 +21,8 @@ async function calcExchange(usd, forex) {
     }
   } else if (typeof response === "string") {
     $(".results").html(`${response}`);
+  } else {
+    $(".results").text("Something happened....Try again?!");
   }
 }
 
